@@ -1,0 +1,8 @@
+ALTER TABLE `RestaurantDB`.`bill` 
+ADD COLUMN `Discount` INT NULL DEFAULT NULL COMMENT '' AFTER `PayedBy`;
+
+
+ALTER TABLE `RestaurantDB`.`bill` 
+DROP PRIMARY KEY,
+ADD PRIMARY KEY (`BillNo`)  COMMENT '';
+
