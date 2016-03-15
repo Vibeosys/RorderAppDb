@@ -3,5 +3,5 @@ CREATE TABLE `RestaurantDB`.`takeaway_source` (
   `SourceName` VARCHAR(45) NULL COMMENT '',
   `SourceImg` VARCHAR(45) NULL COMMENT '',
   `Discount` DOUBLE NULL COMMENT '',
-  `Active` BIT(1) NULL COMMENT '',
+  `Active` INT NULL COMMENT '',
   PRIMARY KEY (`SourceId`)  COMMENT '');
