@@ -1,0 +1,1 @@
+INSERT INTO `RestaurantDB`.`r_printers` (`PrinterId`, `IpAddress`, `PrinterName`, `ModelName`, `Company`, `MacAddress`, `RestaurantId`, `Active`) VALUES ('1', '192.168.1.138', 'Epson', 'TM-P20', 'Epson', '00:01:90:C2:A8:4F', '123456', '1');
