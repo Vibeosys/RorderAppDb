@@ -1,5 +1,5 @@
 CREATE TABLE `RestaurantDB`.`recipe_item_master` (
-  `ItemId` INT NOT NULL COMMENT '',
+  `ItemId` INT NOT NULL  COMMENT '',
   `ItemName` VARCHAR(45) NULL COMMENT '',
   `UnitId` INT NULL COMMENT '',
   `SafetyLevel` DOUBLE NULL DEFAULT NULL COMMENT '',
@@ -12,3 +12,5 @@ CREATE TABLE `RestaurantDB`.`recipe_item_master` (
     REFERENCES `RestaurantDB`.`unit_master` (`UnitId`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION);
+	
+	ALTER TABLE RestaurantDB.recipe_item_master AUTO_INCREMENT = 1000;
