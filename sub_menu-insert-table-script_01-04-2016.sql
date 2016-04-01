@@ -1,0 +1,12 @@
+INSERT INTO `RestaurantDB`.`sub_menu` (`SubMenuId`, `MenuId`, `SubMenuTitle`, `Price`) VALUES ('1', '349', '30ML', '50');
+INSERT INTO `RestaurantDB`.`sub_menu` (`SubMenuId`, `MenuId`, `SubMenuTitle`, `Price`) VALUES ('2', '349', '60ML', '90');
+INSERT INTO `RestaurantDB`.`sub_menu` (`SubMenuId`, `MenuId`, `SubMenuTitle`, `Price`) VALUES ('3', '349', '90ML', '130');
+INSERT INTO `RestaurantDB`.`sub_menu` (`SubMenuId`, `MenuId`, `SubMenuTitle`, `Price`) VALUES ('4', '350', '60ML', '80');
+INSERT INTO `RestaurantDB`.`sub_menu` (`SubMenuId`, `MenuId`, `SubMenuTitle`, `Price`) VALUES ('5', '350', '120ML', '150');
+INSERT INTO `RestaurantDB`.`sub_menu` (`SubMenuId`, `MenuId`, `SubMenuTitle`, `Price`) VALUES ('6', '351', '90ML', '100');
+INSERT INTO `RestaurantDB`.`sub_menu` (`SubMenuId`, `MenuId`, `SubMenuTitle`, `Price`) VALUES ('7', '351', '180ML', '180');
+INSERT INTO `RestaurantDB`.`sub_menu` (`SubMenuId`, `MenuId`, `SubMenuTitle`, `Price`) VALUES ('8', '352', '200ML', '20');
+INSERT INTO `RestaurantDB`.`sub_menu` (`SubMenuId`, `MenuId`, `SubMenuTitle`, `Price`) VALUES ('9', '352', '500ML', '45');
+INSERT INTO `RestaurantDB`.`sub_menu` (`SubMenuId`, `MenuId`, `SubMenuTitle`, `Price`) VALUES ('10', '352', '1000ML', '90');
+INSERT INTO `RestaurantDB`.`sub_menu` (`SubMenuId`, `MenuId`, `SubMenuTitle`, `Price`) VALUES ('11', '353', '500ML', '45');
+INSERT INTO `RestaurantDB`.`sub_menu` (`SubMenuId`, `MenuId`, `SubMenuTitle`, `Price`) VALUES ('12', '353', '1000ML', '90');
