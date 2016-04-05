@@ -1,0 +1,21 @@
+CREATE TABLE `delivery` (
+  `DeliveryId` varchar(45) NOT NULL,
+  `DeliveryNo` int(11) DEFAULT NULL,
+  `Discount` double DEFAULT NULL,
+  `DeliveryCharges` double DEFAULT NULL,
+  `CustId` varchar(45) DEFAULT NULL,
+  `RestaurantId` int(11) DEFAULT NULL,
+  `UserId` varchar(45) DEFAULT NULL,
+  `SourceId` int(11) DEFAULT NULL,
+  `CreatedDate` datetime DEFAULT NULL,
+  `UpdatedDate` datetime DEFAULT NULL,
+  PRIMARY KEY (`DeliveryId`),
+  KEY `DeliveryCustId_idx` (`CustId`),
+  KEY `DeliveryRestaurantId_idx` (`RestaurantId`),
+  KEY `DeliveryUserId_idx` (`UserId`),
+  KEY `DeliverySourceId_idx` (`SourceId`),
+  CONSTRAINT `DeliveryCustId` FOREIGN KEY (`CustId`) REFERENCES `customer` (`CustId`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `DeliveryRestaurantId` FOREIGN KEY (`RestaurantId`) REFERENCES `restaurant` (`RestaurantId`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `DeliverySourceId` FOREIGN KEY (`SourceId`) REFERENCES `takeaway_source` (`SourceId`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `DeliveryUserId` FOREIGN KEY (`UserId`) REFERENCES `users` (`UserId`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
