@@ -1,0 +1,14 @@
+INSERT INTO `RestaurantDB`.`item_category` (`ItemCategoryId`, `ItemCategoryTitle`, `CreatedDate`, `UpdatedDate`) VALUES ('1', 'Grocery', '2016-03-31 11:10:35', '2016-03-31 11:10:35');
+INSERT INTO `RestaurantDB`.`item_category` (`ItemCategoryId`, `ItemCategoryTitle`, `CreatedDate`, `UpdatedDate`) VALUES ('2', 'Dairy', '2016-03-31 11:10:35', '2016-03-31 11:10:35');
+INSERT INTO `RestaurantDB`.`item_category` (`ItemCategoryId`, `ItemCategoryTitle`, `CreatedDate`, `UpdatedDate`) VALUES ('3', 'Poultry', '2016-03-31 11:10:35', '2016-03-31 11:10:35');
+INSERT INTO `RestaurantDB`.`item_category` (`ItemCategoryId`, `ItemCategoryTitle`, `CreatedDate`, `UpdatedDate`) VALUES ('4', 'Vegetables', '2016-03-31 11:10:35', '2016-03-31 11:10:35');
+INSERT INTO `RestaurantDB`.`item_category` (`ItemCategoryId`, `ItemCategoryTitle`, `CreatedDate`, `UpdatedDate`) VALUES ('5', 'Seafood', '2016-03-31 11:10:35', '2016-03-31 11:10:35');
+INSERT INTO `RestaurantDB`.`item_category` (`ItemCategoryId`, `ItemCategoryTitle`, `CreatedDate`, `UpdatedDate`) VALUES ('6', 'Beer', '2016-03-31 11:10:35', '2016-03-31 11:10:35');
+INSERT INTO `RestaurantDB`.`item_category` (`ItemCategoryId`, `ItemCategoryTitle`, `CreatedDate`, `UpdatedDate`) VALUES ('7', 'Wine', '2016-03-31 11:10:35', '2016-03-31 11:10:35');
+INSERT INTO `RestaurantDB`.`item_category` (`ItemCategoryId`, `ItemCategoryTitle`, `CreatedDate`, `UpdatedDate`) VALUES ('8', 'Liquor', '2016-03-31 11:10:35', '2016-03-31 11:10:35');
+INSERT INTO `RestaurantDB`.`item_category` (`ItemCategoryId`, `ItemCategoryTitle`, `CreatedDate`, `UpdatedDate`) VALUES ('9', 'Soft Beverages', '2016-03-31 11:10:35', '2016-03-31 11:10:35');
+INSERT INTO `RestaurantDB`.`item_category` (`ItemCategoryId`, `ItemCategoryTitle`, `CreatedDate`, `UpdatedDate`) VALUES ('10', 'Meat', '2016-03-31 11:10:35', '2016-03-31 11:10:35');
+INSERT INTO `RestaurantDB`.`item_category` (`ItemCategoryId`, `ItemCategoryTitle`, `CreatedDate`, `UpdatedDate`) VALUES ('11', 'Fruits', '2016-03-31 11:10:35', '2016-03-31 11:10:35');
+INSERT INTO `RestaurantDB`.`item_category` (`ItemCategoryId`, `ItemCategoryTitle`, `CreatedDate`, `UpdatedDate`) VALUES ('12', 'Dessert', '2016-03-31 11:10:35', '2016-03-31 11:10:35');
+INSERT INTO `RestaurantDB`.`item_category` (`ItemCategoryId`, `ItemCategoryTitle`, `CreatedDate`, `UpdatedDate`) VALUES ('13', 'Other', '2016-03-31 11:10:35', '2016-03-31 11:10:35');
+INSERT INTO `RestaurantDB`.`item_category` (`ItemCategoryId`, `ItemCategoryTitle`, `CreatedDate`, `UpdatedDate`) VALUES ('14', 'Bakery', '2016-03-31 11:10:35', '2016-03-31 11:10:35');
